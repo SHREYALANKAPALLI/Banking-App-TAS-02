@@ -1,0 +1,90 @@
+.row {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(33.33%, 1fr) );
+}
+
+.bank {
+    grid-column: span 1;
+    background-color: #FFE4B5;
+    border: solid;
+    margin: 5px;
+    padding: 100px;
+    border-radius:6px;
+    -moz-border-radius:6px;
+    border-color: #000000;
+}
+
+#bank_title {
+    color: 	#000000;
+}
+
+#balance_info {
+    display: grid;
+    background-color: #FFE4B5;
+    border: solid;
+    justify-content: center;
+    width: 580px;
+    padding: 300px;
+    border-radius:60px;
+    -moz-border-radius:60px;
+    border-color: #FFEFD5;
+}
+
+.enter_balance {
+    background: #FFC0CB;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px;
+}
+
+#submit_balance {
+    background: #FFC0CB;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: separate;
+    border: solid black 1px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+}
+
+td, th {
+    border-left:solid black 1px;
+    border-top:solid black 1px;
+}
+
+th {
+    background-color: #facde0;
+    border-top: none;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
+}
+
+.trans_type {
+    background: #ffd6d6;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.submit_trans {
+    background: #b3ffd0;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 67px;
+}
+
+.transaction {
+    background: #F5F5F5;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
